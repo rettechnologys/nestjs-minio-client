@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-minio-client",
-  "version": "2.2.0",
+  "name": "nestjs-minio-client2",
+  "version": "2.2.2",
   "description": "Minio module for NestJS framework",
   "author": {
     "name": "Uros Karic",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/djedlajn/nestjs-minio-client"
+    "url": "https://github.com/rettechnologys/nestjs-minio-client"
   },
   "bugs": {
-    "url": "https://github.com/djedlajn/nestjs-minio-client/issues"
+    "url": "https://github.com/rettechnologys/nestjs-minio-client/issues"
   },
   "private": false,
   "keywords": [
@@ -43,7 +43,7 @@
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write && git status",
     "prepublishOnly": "npm run format && npm run build",
     "postversion": "git push && git push --tags",
-    "postinstall": "husky install",
+    "//*postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
